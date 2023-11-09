@@ -18,7 +18,7 @@ body {
 .card{
     background-color: hsl(216, 50%, 16%);
     width: 400px;
-    height: 550px;
+    height: 600px;
     
     position: fixed; 
     top: 50%;
@@ -33,14 +33,14 @@ body {
 
 .card_image{
     width: 90%;
-    height: 60%;
+    height: 50%;
     vertical-align: middle;
 
-    margin: 10px;
+    margin: 20px;
     border-radius: 20px;
 
     overflow: hidden;
-    margin: 20px;
+
 
 }
 .card_image img{
@@ -54,6 +54,7 @@ body {
     font-weight: 600;
     margin: 15px;
     text-align: start;
+    color: hsl(0, 0%, 100%);
 }
 
 
