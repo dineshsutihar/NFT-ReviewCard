@@ -13,24 +13,28 @@ body {
   font-weight: 400;
   background-color: hsl(217, 54%, 11%);
   color: hsl(215, 51%, 70%);
+
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  
 }
 
 .card{
     background-color: hsl(216, 50%, 16%);
-    width: 375px;
+    width: 370px;
     height: 650px;
+
     
-    position: fixed; 
+    /* position: fixed; 
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
 
     border-radius: 20px;
     text-align: center;
     overflow: hidden;
-    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
-
-    /* padding: 20px; */
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
 
 }
 
@@ -133,4 +137,10 @@ footer {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+.card:hover{
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
 }
