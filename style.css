@@ -17,7 +17,7 @@ body {
 
 .card{
     background-color: hsl(216, 50%, 16%);
-    width: 400px;
+    width: 375px;
     height: 650px;
     
     position: fixed; 
@@ -35,11 +35,11 @@ body {
 }
 
 .card_image{
-    width: 90%;
     height: 50%;
     vertical-align: middle;
 
-    margin: 20px;
+    margin: 25px;
+
     border-radius: 20px;
 
     overflow: hidden;
@@ -52,9 +52,10 @@ body {
     object-fit: cover;
 }
 .card_content{
-    padding: 20px;
+    padding: 25px;
     text-align: start;
     line-height: 25px;
+    padding-top: 20px;
 }
 
 .card_title{
@@ -65,6 +66,31 @@ body {
     margin-bottom: 20px;
 }
 
+.card_content--description{
+    font-size: 18px;
+    font-weight: 300;
+    text-align: start;
+    margin-bottom: 20px;
+}
+
+.card__content--price{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+
+}
+
+.card__content--price-amount,.card__content--price-days{
+  display: flex;
+  align-items: center;
+  font-size: px;
+  font-weight: 400;
+  gap: 6px;
+}
+.card__content--price-amount{
+  color: hsl(178, 100%, 50%);
+}
 
 
 
