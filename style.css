@@ -18,7 +18,7 @@ body {
 .card{
     background-color: hsl(216, 50%, 16%);
     width: 400px;
-    height: 600px;
+    height: 650px;
     
     position: fixed; 
     top: 50%;
@@ -28,6 +28,7 @@ body {
     border-radius: 20px;
     text-align: center;
     overflow: hidden;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
 
 }
 
